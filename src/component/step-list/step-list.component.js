@@ -1,7 +1,7 @@
 import React from 'react';
 import Step from '../step/step.component';
 import { stepValueList } from './step-data-list'
-import './step-list.css'
+import './step-list.scss'
 
 const StepList = () => {
   return (
