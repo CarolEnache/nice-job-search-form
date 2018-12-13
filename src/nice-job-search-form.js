@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './nice-job-search-form.css';
-import Step from './component/step';
+import StepList from './component/step-list';
 
-class NiceJobSearchForm extends Component {
-  render() {
-    return (
-      <div className="nice-job-search-form">
-        <div>
-          <Step step={2}/>
-        </div>
+const NiceJobSearchForm = () => {
+  return (
+    <div className="nice-job-search-form">
+      <div>
+        <StepList/>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default NiceJobSearchForm;
