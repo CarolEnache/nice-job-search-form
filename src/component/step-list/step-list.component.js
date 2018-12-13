@@ -1,12 +1,13 @@
 import React from 'react';
 import Step from '../step/step.component';
+import { stepValueList } from './step-data-list'
+import './step-list.css'
 
-const StepList = ({}) => {
-  const stepValueList = ['Step 1', 'Step 2']
+const StepList = () => {
   return (
     <div className="step-list">
       {stepValueList.map((stepValue, key) => (
-        <Step key={key} step={stepValue}/>
+        <Step key={key} {...stepValue}/>
       ))}
     </div>
   )
