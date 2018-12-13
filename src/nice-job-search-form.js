@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import './nice-job-search-form.css';
 import Step from './component/step';
 
-class App extends Component {
+class NiceJobSearchForm extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="nice-job-search-form">
         <div>
           <Step step={2}/>
         </div>
@@ -14,4 +14,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default NiceJobSearchForm;
