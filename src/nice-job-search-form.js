@@ -5,7 +5,7 @@ import StepList from './component/step-list';
 const NiceJobSearchForm = () => {
   return (
     <div className="nice-job-search-form">
-      <div>
+      <div className="step-list-wrapper">
         <StepList/>
       </div>
     </div>
